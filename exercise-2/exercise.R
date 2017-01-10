@@ -3,7 +3,9 @@
 # Define a function `CompareLength` that takes in 2 character strings, and returns
 # the sentence of the form
 #   "The difference in length is N"
-
+CompareLength <- function(a, b){
+  return ("The difference in length is " (length(b) - length(a)))
+}
 
 # Pass two strings of different lengths to your `CompareLength` function
 
